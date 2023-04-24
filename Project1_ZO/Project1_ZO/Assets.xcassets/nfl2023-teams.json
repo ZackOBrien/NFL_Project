@@ -1,0 +1,386 @@
+[
+    {
+        "id": 1,
+        "name": "Arizona Cardinals",
+        "stadium": {
+            "id": 28,
+            "name": "State Farm Stadium",
+            "latitude": 33.52770765,
+            "longitude": -112.2625649
+        },
+        "website": "https://www.azcardinals.com/",
+        "logo": "Arizona Cardinals.png"
+    },
+    {
+        "id": 2,
+        "name": "Atlanta Falcons",
+        "stadium": {
+            "id": 18,
+            "name": "Mercedes-Benz Stadium",
+            "latitude": 33.75539625,
+            "longitude": -84.40081568
+        },
+        "website": "https://www.atlantafalcons.com/",
+        "logo": "Atlanta Falcons.png"
+    },
+    {
+        "id": 3,
+        "name": "Baltimore Ravens",
+        "stadium": {
+            "id": 17,
+            "name": "M&T Bank Stadium",
+            "latitude": 39.2779664,
+            "longitude": -76.62380931
+        },
+        "website": "https://www.baltimoreravens.com/",
+        "logo": "Baltimore Ravens.png"
+    },
+    {
+        "id": 4,
+        "name": "Buffalo Bills",
+        "stadium": {
+            "id": 22,
+            "name": "New Era Field",
+            "latitude": 42.7737131,
+            "longitude": -78.78690321
+        },
+        "website": "https://www.buffalobills.com/",
+        "logo": "Buffalo Bills.png"
+    },
+    {
+        "id": 5,
+        "name": "Carolina Panthers",
+        "stadium": {
+            "id": 4,
+            "name": "Bank of America Stadium",
+            "latitude": 35.225736299999994,
+            "longitude": -80.85388172
+        },
+        "website": "https://www.panthers.com/",
+        "logo": "Carolina Panthers.png"
+    },
+    {
+        "id": 6,
+        "name": "Chicago Bears",
+        "stadium": {
+            "id": 27,
+            "name": "Soldier Field",
+            "latitude": 41.86245145,
+            "longitude": -87.61671515
+        },
+        "website": "https://www.chicagobears.com/",
+        "logo": "Chicago Bears.png"
+    },
+    {
+        "id": 7,
+        "name": "Cincinnati Bengals",
+        "stadium": {
+            "id": 24,
+            "name": "Paul Brown Stadium",
+            "latitude": 39.095651000000004,
+            "longitude": -84.51610699999999
+        },
+        "website": "https://www.bengals.com/",
+        "logo": "Cincinnati Bengals.png"
+    },
+    {
+        "id": 8,
+        "name": "Cleveland Browns",
+        "stadium": {
+            "id": 8,
+            "name": "FirstEnergy Stadium",
+            "latitude": 41.5060559,
+            "longitude": -81.69971185
+        },
+        "website": "https://www.clevelandbrowns.com/",
+        "logo": "Cleveland Browns.png"
+    },
+    {
+        "id": 9,
+        "name": "Dallas Cowboys",
+        "stadium": {
+            "id": 1,
+            "name": "AT&T Stadium",
+            "latitude": 32.74785025,
+            "longitude": -97.09283371
+        },
+        "website": "https://www.dallascowboys.com/",
+        "logo": "Dallas Cowboys.png"
+    },
+    {
+        "id": 10,
+        "name": "Denver Broncos",
+        "stadium": {
+            "id": 6,
+            "name": "Empower Field at Mile High",
+            "latitude": 39.743952,
+            "longitude": -105.0192228
+        },
+        "website": "https://www.denverbroncos.com/",
+        "logo": "Denver Broncos.png"
+    },
+    {
+        "id": 11,
+        "name": "Detroit Lions",
+        "stadium": {
+            "id": 9,
+            "name": "Ford Field",
+            "latitude": 42.33995675,
+            "longitude": -83.04561657
+        },
+        "website": "https://www.detroitlions.com/",
+        "logo": "Detroit Lions.png"
+    },
+    {
+        "id": 12,
+        "name": "Green Bay Packers",
+        "stadium": {
+            "id": 13,
+            "name": "Lambeau Field",
+            "latitude": 44.5009885,
+            "longitude": -88.06102055
+        },
+        "website": "https://www.packers.com/",
+        "logo": "Green Bay Packers.png"
+    },
+    {
+        "id": 13,
+        "name": "Houston Texans",
+        "stadium": {
+            "id": 21,
+            "name": "NRG Stadium",
+            "latitude": 29.6848581,
+            "longitude": -95.41080145
+        },
+        "website": "https://www.houstontexans.com/",
+        "logo": "Houston Texans.png"
+    },
+    {
+        "id": 14,
+        "name": "Indianapolis Colts",
+        "stadium": {
+            "id": 16,
+            "name": "Lucas Oil Stadium",
+            "latitude": 39.760085,
+            "longitude": -86.16370379
+        },
+        "website": "https://www.colts.com/",
+        "logo": "Indianapolis Colts.png"
+    },
+    {
+        "id": 15,
+        "name": "Jacksonville Jaguars",
+        "stadium": {
+            "id": 29,
+            "name": "TIAA Bank Field",
+            "latitude": 30.32398105,
+            "longitude": -81.63730457
+        },
+        "website": "https://www.jaguars.com/",
+        "logo": "Jacksonville Jaguars.png"
+    },
+    {
+        "id": 16,
+        "name": "Kansas City Chiefs",
+        "stadium": {
+            "id": 3,
+            "name": "Arrowhead Stadium",
+            "latitude": 39.04894045,
+            "longitude": -94.48300340000002
+        },
+        "website": "https://www.chiefs.com/",
+        "logo": "Kansas City Chiefs.png"
+    },
+    {
+        "id": 17,
+        "name": "Las Vegas Raiders",
+        "stadium": {
+            "id": 2,
+            "name": "Allegiant Stadium",
+            "latitude": 36.09083455,
+            "longitude": -115.182478
+        },
+        "website": "https://www.raiders.com/",
+        "logo": "Las Vegas Raiders.png"
+    },
+    {
+        "id": 18,
+        "name": "Los Angeles Chargers",
+        "stadium": {
+            "id": 26,
+            "name": "SoFi Stadium",
+            "latitude": 33.953358,
+            "longitude": -118.33989629999999
+        },
+        "website": "https://www.chargers.com/",
+        "logo": "Los Angeles Chargers.png"
+    },
+    {
+        "id": 19,
+        "name": "Los Angeles Rams",
+        "stadium": {
+            "id": 26,
+            "name": "SoFi Stadium",
+            "latitude": 33.953358,
+            "longitude": -118.33989629999999
+        },
+        "website": "https://www.therams.com/",
+        "logo": "Los Angeles Rams.png"
+    },
+    {
+        "id": 20,
+        "name": "Miami Dolphins",
+        "stadium": {
+            "id": 11,
+            "name": "Hard Rock Stadium",
+            "latitude": 25.95790315,
+            "longitude": -80.23884974
+        },
+        "website": "https://www.miamidolphins.com/",
+        "logo": "Miami Dolphins.png"
+    },
+    {
+        "id": 21,
+        "name": "Minnesota Vikings",
+        "stadium": {
+            "id": 30,
+            "name": "U.S. Bank Stadium",
+            "latitude": 44.9749768,
+            "longitude": -93.25993359999998
+        },
+        "website": "https://www.vikings.com/",
+        "logo": "Minnesota Vikings.png"
+    },
+    {
+        "id": 22,
+        "name": "New England Patriots",
+        "stadium": {
+            "id": 10,
+            "name": "Gillette Stadium",
+            "latitude": 42.091252600000004,
+            "longitude": -71.26446461
+        },
+        "website": "https://www.patriots.com/",
+        "logo": "New England Patriots.png"
+    },
+    {
+        "id": 23,
+        "name": "New Orleans Saints",
+        "stadium": {
+            "id": 19,
+            "name": "Mercedes-Benz Superdome",
+            "latitude": 29.9510489,
+            "longitude": -90.08230763
+        },
+        "website": "https://www.neworleanssaints.com/",
+        "logo": "New Orleans Saints.png"
+    },
+    {
+        "id": 24,
+        "name": "New York Giants",
+        "stadium": {
+            "id": 20,
+            "name": "MetLife Stadium",
+            "latitude": 40.81350705,
+            "longitude": -74.07434418
+        },
+        "website": "https://www.giants.com/",
+        "logo": "New York Giants.png"
+    },
+    {
+        "id": 25,
+        "name": "New York Jets",
+        "stadium": {
+            "id": 20,
+            "name": "MetLife Stadium",
+            "latitude": 40.81350705,
+            "longitude": -74.07434418
+        },
+        "website": "https://www.newyorkjets.com/",
+        "logo": "New York Jets.png"
+    },
+    {
+        "id": 26,
+        "name": "Philadelphia Eagles",
+        "stadium": {
+            "id": 15,
+            "name": "Lincoln Financial Field",
+            "latitude": 39.9009099,
+            "longitude": -75.16748916
+        },
+        "website": "https://www.philadelphiaeagles.com/",
+        "logo": "Philadelphia Eagles.png"
+    },
+    {
+        "id": 27,
+        "name": "Pittsburgh Steelers",
+        "stadium": {
+            "id": 12,
+            "name": "Heinz Field",
+            "latitude": 40.44671645,
+            "longitude": -80.01575493
+        },
+        "website": "https://www.steelers.com/",
+        "logo": "Pittsburgh Steelers.png"
+    },
+    {
+        "id": 28,
+        "name": "San Francisco 49ers",
+        "stadium": {
+            "id": 14,
+            "name": "Levi's Stadium",
+            "latitude": 37.40303995,
+            "longitude": -121.96968170000001
+        },
+        "website": "https://www.49ers.com/",
+        "logo": "San Francisco 49ers.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Seattle Seahawks",
+        "stadium": {
+            "id": 5,
+            "name": "CenturyLink Field",
+            "latitude": 47.5953459,
+            "longitude": -122.3316443
+        },
+        "website": "https://www.seahawks.com/",
+        "logo": "Seattle Seahawks.png"
+    },
+    {
+        "id": 30,
+        "name": "Tampa Bay Buccaneers",
+        "stadium": {
+            "id": 25,
+            "name": "Raymond James Stadium",
+            "latitude": 27.97597925,
+            "longitude": -82.50421800000001
+        },
+        "website": "https://www.buccaneers.com/",
+        "logo": "Tampa Bay Buccaneers.png"
+    },
+    {
+        "id": 31,
+        "name": "Tennessee Titans",
+        "stadium": {
+            "id": 23,
+            "name": "Nissan Stadium",
+            "latitude": 36.16649655,
+            "longitude": -86.77126444
+        },
+        "website": "https://www.tennesseetitans.com/",
+        "logo": "Tennessee Titans.png"
+    },
+    {
+        "id": 32,
+        "name": "Washington Football Team",
+        "stadium": {
+            "id": 7,
+            "name": "FedExField",
+            "latitude": 38.90768745,
+            "longitude": -76.86448686
+        },
+        "website": "https://www.washingtonfootball.com/",
+        "logo": "Washington Football Team.png"
+    }
+]

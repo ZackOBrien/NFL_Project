@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E232285B290C761100876023 /* Project1_ZOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232285A290C761100876023 /* Project1_ZOApp.swift */; };
+		E232285D290C761100876023 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232285C290C761100876023 /* ContentView.swift */; };
+		E232285F290C761200876023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E232285E290C761200876023 /* Assets.xcassets */; };
+		E2322862290C761200876023 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2322861290C761200876023 /* Preview Assets.xcassets */; };
+		E2322869290C77D600876023 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2322868290C77D600876023 /* ScheduleView.swift */; };
+		E232286B290C8B8F00876023 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232286A290C8B8F00876023 /* TeamView.swift */; };
+		E232286D290C8BC600876023 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232286C290C8BC600876023 /* CountdownView.swift */; };
+		E2322874290C909E00876023 /* nfl2023-stadiums.json in Resources */ = {isa = PBXBuildFile; fileRef = E2322871290C909D00876023 /* nfl2023-stadiums.json */; };
+		E2322875290C909E00876023 /* nfl2023-games.json in Resources */ = {isa = PBXBuildFile; fileRef = E2322872290C909D00876023 /* nfl2023-games.json */; };
+		E2322876290C909E00876023 /* nfl2023-teams.json in Resources */ = {isa = PBXBuildFile; fileRef = E2322873290C909D00876023 /* nfl2023-teams.json */; };
+		E2322897290C917000876023 /* Chicago Bears.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322877290C916F00876023 /* Chicago Bears.imageset */; };
+		E2322898290C917000876023 /* Jacksonville Jaguars.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322878290C916F00876023 /* Jacksonville Jaguars.imageset */; };
+		E2322899290C917000876023 /* Tampa Bay Buccaneers.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322879290C916F00876023 /* Tampa Bay Buccaneers.imageset */; };
+		E232289A290C917000876023 /* Detroit Lions.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E232287A290C916F00876023 /* Detroit Lions.imageset */; };
+		E232289B290C917000876023 /* New Orleans Saints.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E232287B290C916F00876023 /* New Orleans Saints.imageset */; };
+		E232289C290C917000876023 /* Seattle Seahawks.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E232287C290C917000876023 /* Seattle Seahawks.imageset */; };
+		E232289D290C917000876023 /* Denver Broncos.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E232287D290C917000876023 /* Denver Broncos.imageset */; };
+		E232289E290C917000876023 /* Carolina Panthers.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E232287E290C917000876023 /* Carolina Panthers.imageset */; };
+		E232289F290C917000876023 /* Kansas City Chiefs.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E232287F290C917000876023 /* Kansas City Chiefs.imageset */; };
+		E23228A0290C917000876023 /* Los Angeles Chargers.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322880290C917000876023 /* Los Angeles Chargers.imageset */; };
+		E23228A1290C917000876023 /* Houston Texans.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322881290C917000876023 /* Houston Texans.imageset */; };
+		E23228A2290C917000876023 /* Cleveland Browns.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322882290C917000876023 /* Cleveland Browns.imageset */; };
+		E23228A3290C917000876023 /* Green Bay Packers.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322883290C917000876023 /* Green Bay Packers.imageset */; };
+		E23228A4290C917000876023 /* New England Patriots.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322884290C917000876023 /* New England Patriots.imageset */; };
+		E23228A5290C917000876023 /* Arizona Cardinals.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322885290C917000876023 /* Arizona Cardinals.imageset */; };
+		E23228A6290C917000876023 /* Baltimore Ravens.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322886290C917000876023 /* Baltimore Ravens.imageset */; };
+		E23228A7290C917000876023 /* Washington Football Team.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322887290C917000876023 /* Washington Football Team.imageset */; };
+		E23228A8290C917000876023 /* San Francisco 49ers.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322888290C917000876023 /* San Francisco 49ers.imageset */; };
+		E23228A9290C917000876023 /* Cincinnati Bengals.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322889290C917000876023 /* Cincinnati Bengals.imageset */; };
+		E23228AA290C917000876023 /* Minnesota Vikings.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E232288A290C917000876023 /* Minnesota Vikings.imageset */; };
+		E23228AB290C917000876023 /* Buffalo Bills.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E232288B290C917000876023 /* Buffalo Bills.imageset */; };
+		E23228AC290C917000876023 /* Indianapolis Colts.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E232288C290C917000876023 /* Indianapolis Colts.imageset */; };
+		E23228AD290C917000876023 /* Tennessee Titans.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E232288D290C917000876023 /* Tennessee Titans.imageset */; };
+		E23228AE290C917000876023 /* Los Angeles Rams.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E232288E290C917000876023 /* Los Angeles Rams.imageset */; };
+		E23228AF290C917000876023 /* Las Vegas Raiders.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E232288F290C917000876023 /* Las Vegas Raiders.imageset */; };
+		E23228B0290C917000876023 /* Pittsburgh Steelers.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322890290C917000876023 /* Pittsburgh Steelers.imageset */; };
+		E23228B1290C917000876023 /* Miami Dolphins.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322891290C917000876023 /* Miami Dolphins.imageset */; };
+		E23228B2290C917000876023 /* New York Giants.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322892290C917000876023 /* New York Giants.imageset */; };
+		E23228B3290C917100876023 /* Dallas Cowboys.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322893290C917000876023 /* Dallas Cowboys.imageset */; };
+		E23228B4290C917100876023 /* Atlanta Falcons.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322894290C917000876023 /* Atlanta Falcons.imageset */; };
+		E23228B5290C917100876023 /* New York Jets.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322895290C917000876023 /* New York Jets.imageset */; };
+		E23228B6290C917100876023 /* Philadelphia Eagles.imageset in Resources */ = {isa = PBXBuildFile; fileRef = E2322896290C917000876023 /* Philadelphia Eagles.imageset */; };
+		E23228B8290CBDCF00876023 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23228B7290CBDCF00876023 /* WebView.swift */; };
+		E23228BA290D889600876023 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23228B9290D889600876023 /* MapView.swift */; };
+		E23228BC290D913A00876023 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23228BB290D913A00876023 /* Team.swift */; };
+		E23228DE29104B0500876023 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23228DD29104B0500876023 /* Game.swift */; };
+		E23228E029104B2500876023 /* Stadium.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23228DF29104B2500876023 /* Stadium.swift */; };
+		E23228E229104DF100876023 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23228E129104DF100876023 /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2322857290C761100876023 /* Project1_ZO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1_ZO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E232285A290C761100876023 /* Project1_ZOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1_ZOApp.swift; sourceTree = "<group>"; };
+		E232285C290C761100876023 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E232285E290C761200876023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2322861290C761200876023 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2322868290C77D600876023 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		E232286A290C8B8F00876023 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		E232286C290C8BC600876023 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		E2322871290C909D00876023 /* nfl2023-stadiums.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "nfl2023-stadiums.json"; path = "Assets.xcassets/nfl2023-stadiums.json"; sourceTree = "<group>"; };
+		E2322872290C909D00876023 /* nfl2023-games.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "nfl2023-games.json"; path = "Assets.xcassets/nfl2023-games.json"; sourceTree = "<group>"; };
+		E2322873290C909D00876023 /* nfl2023-teams.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "nfl2023-teams.json"; path = "Assets.xcassets/nfl2023-teams.json"; sourceTree = "<group>"; };
+		E2322877290C916F00876023 /* Chicago Bears.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Chicago Bears.imageset"; path = "Assets.xcassets/Chicago Bears.imageset"; sourceTree = "<group>"; };
+		E2322878290C916F00876023 /* Jacksonville Jaguars.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Jacksonville Jaguars.imageset"; path = "Assets.xcassets/Jacksonville Jaguars.imageset"; sourceTree = "<group>"; };
+		E2322879290C916F00876023 /* Tampa Bay Buccaneers.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Tampa Bay Buccaneers.imageset"; path = "Assets.xcassets/Tampa Bay Buccaneers.imageset"; sourceTree = "<group>"; };
+		E232287A290C916F00876023 /* Detroit Lions.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Detroit Lions.imageset"; path = "Assets.xcassets/Detroit Lions.imageset"; sourceTree = "<group>"; };
+		E232287B290C916F00876023 /* New Orleans Saints.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "New Orleans Saints.imageset"; path = "Assets.xcassets/New Orleans Saints.imageset"; sourceTree = "<group>"; };
+		E232287C290C917000876023 /* Seattle Seahawks.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Seattle Seahawks.imageset"; path = "Assets.xcassets/Seattle Seahawks.imageset"; sourceTree = "<group>"; };
+		E232287D290C917000876023 /* Denver Broncos.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Denver Broncos.imageset"; path = "Assets.xcassets/Denver Broncos.imageset"; sourceTree = "<group>"; };
+		E232287E290C917000876023 /* Carolina Panthers.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Carolina Panthers.imageset"; path = "Assets.xcassets/Carolina Panthers.imageset"; sourceTree = "<group>"; };
+		E232287F290C917000876023 /* Kansas City Chiefs.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Kansas City Chiefs.imageset"; path = "Assets.xcassets/Kansas City Chiefs.imageset"; sourceTree = "<group>"; };
+		E2322880290C917000876023 /* Los Angeles Chargers.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Los Angeles Chargers.imageset"; path = "Assets.xcassets/Los Angeles Chargers.imageset"; sourceTree = "<group>"; };
+		E2322881290C917000876023 /* Houston Texans.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Houston Texans.imageset"; path = "Assets.xcassets/Houston Texans.imageset"; sourceTree = "<group>"; };
+		E2322882290C917000876023 /* Cleveland Browns.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Cleveland Browns.imageset"; path = "Assets.xcassets/Cleveland Browns.imageset"; sourceTree = "<group>"; };
+		E2322883290C917000876023 /* Green Bay Packers.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Green Bay Packers.imageset"; path = "Assets.xcassets/Green Bay Packers.imageset"; sourceTree = "<group>"; };
+		E2322884290C917000876023 /* New England Patriots.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "New England Patriots.imageset"; path = "Assets.xcassets/New England Patriots.imageset"; sourceTree = "<group>"; };
+		E2322885290C917000876023 /* Arizona Cardinals.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Arizona Cardinals.imageset"; path = "Assets.xcassets/Arizona Cardinals.imageset"; sourceTree = "<group>"; };
+		E2322886290C917000876023 /* Baltimore Ravens.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Baltimore Ravens.imageset"; path = "Assets.xcassets/Baltimore Ravens.imageset"; sourceTree = "<group>"; };
+		E2322887290C917000876023 /* Washington Football Team.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Washington Football Team.imageset"; path = "Assets.xcassets/Washington Football Team.imageset"; sourceTree = "<group>"; };
+		E2322888290C917000876023 /* San Francisco 49ers.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "San Francisco 49ers.imageset"; path = "Assets.xcassets/San Francisco 49ers.imageset"; sourceTree = "<group>"; };
+		E2322889290C917000876023 /* Cincinnati Bengals.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Cincinnati Bengals.imageset"; path = "Assets.xcassets/Cincinnati Bengals.imageset"; sourceTree = "<group>"; };
+		E232288A290C917000876023 /* Minnesota Vikings.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Minnesota Vikings.imageset"; path = "Assets.xcassets/Minnesota Vikings.imageset"; sourceTree = "<group>"; };
+		E232288B290C917000876023 /* Buffalo Bills.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Buffalo Bills.imageset"; path = "Assets.xcassets/Buffalo Bills.imageset"; sourceTree = "<group>"; };
+		E232288C290C917000876023 /* Indianapolis Colts.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Indianapolis Colts.imageset"; path = "Assets.xcassets/Indianapolis Colts.imageset"; sourceTree = "<group>"; };
+		E232288D290C917000876023 /* Tennessee Titans.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Tennessee Titans.imageset"; path = "Assets.xcassets/Tennessee Titans.imageset"; sourceTree = "<group>"; };
+		E232288E290C917000876023 /* Los Angeles Rams.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Los Angeles Rams.imageset"; path = "Assets.xcassets/Los Angeles Rams.imageset"; sourceTree = "<group>"; };
+		E232288F290C917000876023 /* Las Vegas Raiders.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Las Vegas Raiders.imageset"; path = "Assets.xcassets/Las Vegas Raiders.imageset"; sourceTree = "<group>"; };
+		E2322890290C917000876023 /* Pittsburgh Steelers.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Pittsburgh Steelers.imageset"; path = "Assets.xcassets/Pittsburgh Steelers.imageset"; sourceTree = "<group>"; };
+		E2322891290C917000876023 /* Miami Dolphins.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Miami Dolphins.imageset"; path = "Assets.xcassets/Miami Dolphins.imageset"; sourceTree = "<group>"; };
+		E2322892290C917000876023 /* New York Giants.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "New York Giants.imageset"; path = "Assets.xcassets/New York Giants.imageset"; sourceTree = "<group>"; };
+		E2322893290C917000876023 /* Dallas Cowboys.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Dallas Cowboys.imageset"; path = "Assets.xcassets/Dallas Cowboys.imageset"; sourceTree = "<group>"; };
+		E2322894290C917000876023 /* Atlanta Falcons.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Atlanta Falcons.imageset"; path = "Assets.xcassets/Atlanta Falcons.imageset"; sourceTree = "<group>"; };
+		E2322895290C917000876023 /* New York Jets.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "New York Jets.imageset"; path = "Assets.xcassets/New York Jets.imageset"; sourceTree = "<group>"; };
+		E2322896290C917000876023 /* Philadelphia Eagles.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Philadelphia Eagles.imageset"; path = "Assets.xcassets/Philadelphia Eagles.imageset"; sourceTree = "<group>"; };
+		E23228B7290CBDCF00876023 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E23228B9290D889600876023 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E23228BB290D913A00876023 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		E23228DD29104B0500876023 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E23228DF29104B2500876023 /* Stadium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stadium.swift; sourceTree = "<group>"; };
+		E23228E129104DF100876023 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2322854290C761100876023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E232284E290C761100876023 = {
+			isa = PBXGroup;
+			children = (
+				E232285A290C761100876023 /* Project1_ZOApp.swift */,
+				E2322870290C8F5100876023 /* ViewModels */,
+				E232286F290C8F4800876023 /* Models */,
+				E232286E290C8F3F00876023 /* Views */,
+				E2322859290C761100876023 /* Project1_ZO */,
+				E2322858290C761100876023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2322858290C761100876023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2322857290C761100876023 /* Project1_ZO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2322859290C761100876023 /* Project1_ZO */ = {
+			isa = PBXGroup;
+			children = (
+				E2322885290C917000876023 /* Arizona Cardinals.imageset */,
+				E2322894290C917000876023 /* Atlanta Falcons.imageset */,
+				E2322886290C917000876023 /* Baltimore Ravens.imageset */,
+				E232288B290C917000876023 /* Buffalo Bills.imageset */,
+				E232287E290C917000876023 /* Carolina Panthers.imageset */,
+				E2322877290C916F00876023 /* Chicago Bears.imageset */,
+				E2322889290C917000876023 /* Cincinnati Bengals.imageset */,
+				E2322882290C917000876023 /* Cleveland Browns.imageset */,
+				E2322893290C917000876023 /* Dallas Cowboys.imageset */,
+				E232287D290C917000876023 /* Denver Broncos.imageset */,
+				E232287A290C916F00876023 /* Detroit Lions.imageset */,
+				E2322883290C917000876023 /* Green Bay Packers.imageset */,
+				E2322881290C917000876023 /* Houston Texans.imageset */,
+				E232288C290C917000876023 /* Indianapolis Colts.imageset */,
+				E2322878290C916F00876023 /* Jacksonville Jaguars.imageset */,
+				E232287F290C917000876023 /* Kansas City Chiefs.imageset */,
+				E232288F290C917000876023 /* Las Vegas Raiders.imageset */,
+				E2322880290C917000876023 /* Los Angeles Chargers.imageset */,
+				E232288E290C917000876023 /* Los Angeles Rams.imageset */,
+				E2322891290C917000876023 /* Miami Dolphins.imageset */,
+				E232288A290C917000876023 /* Minnesota Vikings.imageset */,
+				E2322884290C917000876023 /* New England Patriots.imageset */,
+				E232287B290C916F00876023 /* New Orleans Saints.imageset */,
+				E2322892290C917000876023 /* New York Giants.imageset */,
+				E2322895290C917000876023 /* New York Jets.imageset */,
+				E2322896290C917000876023 /* Philadelphia Eagles.imageset */,
+				E2322890290C917000876023 /* Pittsburgh Steelers.imageset */,
+				E2322888290C917000876023 /* San Francisco 49ers.imageset */,
+				E232287C290C917000876023 /* Seattle Seahawks.imageset */,
+				E2322879290C916F00876023 /* Tampa Bay Buccaneers.imageset */,
+				E232288D290C917000876023 /* Tennessee Titans.imageset */,
+				E2322887290C917000876023 /* Washington Football Team.imageset */,
+				E2322872290C909D00876023 /* nfl2023-games.json */,
+				E2322871290C909D00876023 /* nfl2023-stadiums.json */,
+				E2322873290C909D00876023 /* nfl2023-teams.json */,
+				E232285E290C761200876023 /* Assets.xcassets */,
+				E2322860290C761200876023 /* Preview Content */,
+			);
+			path = Project1_ZO;
+			sourceTree = "<group>";
+		};
+		E2322860290C761200876023 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2322861290C761200876023 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E232286E290C8F3F00876023 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2322868290C77D600876023 /* ScheduleView.swift */,
+				E232286A290C8B8F00876023 /* TeamView.swift */,
+				E232286C290C8BC600876023 /* CountdownView.swift */,
+				E232285C290C761100876023 /* ContentView.swift */,
+				E23228B7290CBDCF00876023 /* WebView.swift */,
+				E23228B9290D889600876023 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E232286F290C8F4800876023 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E23228BB290D913A00876023 /* Team.swift */,
+				E23228DD29104B0500876023 /* Game.swift */,
+				E23228DF29104B2500876023 /* Stadium.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E2322870290C8F5100876023 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E23228E129104DF100876023 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2322856290C761100876023 /* Project1_ZO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2322865290C761200876023 /* Build configuration list for PBXNativeTarget "Project1_ZO" */;
+			buildPhases = (
+				E2322853290C761100876023 /* Sources */,
+				E2322854290C761100876023 /* Frameworks */,
+				E2322855290C761100876023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project1_ZO;
+			productName = Project1_ZO;
+			productReference = E2322857290C761100876023 /* Project1_ZO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E232284F290C761100876023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E2322856290C761100876023 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E2322852290C761100876023 /* Build configuration list for PBXProject "Project1_ZO" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E232284E290C761100876023;
+			productRefGroup = E2322858290C761100876023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2322856290C761100876023 /* Project1_ZO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2322855290C761100876023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2322897290C917000876023 /* Chicago Bears.imageset in Resources */,
+				E23228A8290C917000876023 /* San Francisco 49ers.imageset in Resources */,
+				E23228B6290C917100876023 /* Philadelphia Eagles.imageset in Resources */,
+				E23228B1290C917000876023 /* Miami Dolphins.imageset in Resources */,
+				E2322862290C761200876023 /* Preview Assets.xcassets in Resources */,
+				E232289B290C917000876023 /* New Orleans Saints.imageset in Resources */,
+				E23228A9290C917000876023 /* Cincinnati Bengals.imageset in Resources */,
+				E23228A4290C917000876023 /* New England Patriots.imageset in Resources */,
+				E23228B3290C917100876023 /* Dallas Cowboys.imageset in Resources */,
+				E2322874290C909E00876023 /* nfl2023-stadiums.json in Resources */,
+				E23228B0290C917000876023 /* Pittsburgh Steelers.imageset in Resources */,
+				E23228A6290C917000876023 /* Baltimore Ravens.imageset in Resources */,
+				E23228A0290C917000876023 /* Los Angeles Chargers.imageset in Resources */,
+				E232289E290C917000876023 /* Carolina Panthers.imageset in Resources */,
+				E23228AB290C917000876023 /* Buffalo Bills.imageset in Resources */,
+				E23228AD290C917000876023 /* Tennessee Titans.imageset in Resources */,
+				E232289C290C917000876023 /* Seattle Seahawks.imageset in Resources */,
+				E23228AF290C917000876023 /* Las Vegas Raiders.imageset in Resources */,
+				E23228A1290C917000876023 /* Houston Texans.imageset in Resources */,
+				E23228B4290C917100876023 /* Atlanta Falcons.imageset in Resources */,
+				E232289F290C917000876023 /* Kansas City Chiefs.imageset in Resources */,
+				E23228B5290C917100876023 /* New York Jets.imageset in Resources */,
+				E232289A290C917000876023 /* Detroit Lions.imageset in Resources */,
+				E23228AC290C917000876023 /* Indianapolis Colts.imageset in Resources */,
+				E232285F290C761200876023 /* Assets.xcassets in Resources */,
+				E23228A3290C917000876023 /* Green Bay Packers.imageset in Resources */,
+				E2322899290C917000876023 /* Tampa Bay Buccaneers.imageset in Resources */,
+				E2322876290C909E00876023 /* nfl2023-teams.json in Resources */,
+				E23228A7290C917000876023 /* Washington Football Team.imageset in Resources */,
+				E2322875290C909E00876023 /* nfl2023-games.json in Resources */,
+				E23228A5290C917000876023 /* Arizona Cardinals.imageset in Resources */,
+				E23228AE290C917000876023 /* Los Angeles Rams.imageset in Resources */,
+				E23228B2290C917000876023 /* New York Giants.imageset in Resources */,
+				E232289D290C917000876023 /* Denver Broncos.imageset in Resources */,
+				E23228A2290C917000876023 /* Cleveland Browns.imageset in Resources */,
+				E2322898290C917000876023 /* Jacksonville Jaguars.imageset in Resources */,
+				E23228AA290C917000876023 /* Minnesota Vikings.imageset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2322853290C761100876023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23228BA290D889600876023 /* MapView.swift in Sources */,
+				E23228DE29104B0500876023 /* Game.swift in Sources */,
+				E232285D290C761100876023 /* ContentView.swift in Sources */,
+				E23228E229104DF100876023 /* ViewModel.swift in Sources */,
+				E232286D290C8BC600876023 /* CountdownView.swift in Sources */,
+				E232285B290C761100876023 /* Project1_ZOApp.swift in Sources */,
+				E23228E029104B2500876023 /* Stadium.swift in Sources */,
+				E23228BC290D913A00876023 /* Team.swift in Sources */,
+				E23228B8290CBDCF00876023 /* WebView.swift in Sources */,
+				E2322869290C77D600876023 /* ScheduleView.swift in Sources */,
+				E232286B290C8B8F00876023 /* TeamView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2322863290C761200876023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2322864290C761200876023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2322866290C761200876023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Project1_ZO/Preview Content\"";
+				DEVELOPMENT_TEAM = WQ9MD4W93J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zacko.Project1-ZO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2322867290C761200876023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Project1_ZO/Preview Content\"";
+				DEVELOPMENT_TEAM = WQ9MD4W93J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zacko.Project1-ZO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2322852290C761100876023 /* Build configuration list for PBXProject "Project1_ZO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2322863290C761200876023 /* Debug */,
+				E2322864290C761200876023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2322865290C761200876023 /* Build configuration list for PBXNativeTarget "Project1_ZO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2322866290C761200876023 /* Debug */,
+				E2322867290C761200876023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E232284F290C761100876023 /* Project object */;
+}

@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "AT&T Stadium",
+        "latitude": 32.74785025,
+        "longitude": -97.09283371
+    },
+    {
+        "id": 2,
+        "name": "Allegiant Stadium",
+        "latitude": 36.09083455,
+        "longitude": -115.182478
+    },
+    {
+        "id": 3,
+        "name": "Arrowhead Stadium",
+        "latitude": 39.04894045,
+        "longitude": -94.48300340000002
+    },
+    {
+        "id": 4,
+        "name": "Bank of America Stadium",
+        "latitude": 35.225736299999994,
+        "longitude": -80.85388172
+    },
+    {
+        "id": 5,
+        "name": "CenturyLink Field",
+        "latitude": 47.5953459,
+        "longitude": -122.3316443
+    },
+    {
+        "id": 6,
+        "name": "Empower Field at Mile High",
+        "latitude": 39.743952,
+        "longitude": -105.0192228
+    },
+    {
+        "id": 7,
+        "name": "FedExField",
+        "latitude": 38.90768745,
+        "longitude": -76.86448686
+    },
+    {
+        "id": 8,
+        "name": "FirstEnergy Stadium",
+        "latitude": 41.5060559,
+        "longitude": -81.69971185
+    },
+    {
+        "id": 9,
+        "name": "Ford Field",
+        "latitude": 42.33995675,
+        "longitude": -83.04561657
+    },
+    {
+        "id": 10,
+        "name": "Gillette Stadium",
+        "latitude": 42.091252600000004,
+        "longitude": -71.26446461
+    },
+    {
+        "id": 11,
+        "name": "Hard Rock Stadium",
+        "latitude": 25.95790315,
+        "longitude": -80.23884974
+    },
+    {
+        "id": 12,
+        "name": "Heinz Field",
+        "latitude": 40.44671645,
+        "longitude": -80.01575493
+    },
+    {
+        "id": 13,
+        "name": "Lambeau Field",
+        "latitude": 44.5009885,
+        "longitude": -88.06102055
+    },
+    {
+        "id": 14,
+        "name": "Levi's Stadium",
+        "latitude": 37.40303995,
+        "longitude": -121.96968170000001
+    },
+    {
+        "id": 15,
+        "name": "Lincoln Financial Field",
+        "latitude": 39.9009099,
+        "longitude": -75.16748916
+    },
+    {
+        "id": 16,
+        "name": "Lucas Oil Stadium",
+        "latitude": 39.760085,
+        "longitude": -86.16370379
+    },
+    {
+        "id": 17,
+        "name": "M&T Bank Stadium",
+        "latitude": 39.2779664,
+        "longitude": -76.62380931
+    },
+    {
+        "id": 18,
+        "name": "Mercedes-Benz Stadium",
+        "latitude": 33.75539625,
+        "longitude": -84.40081568
+    },
+    {
+        "id": 19,
+        "name": "Mercedes-Benz Superdome",
+        "latitude": 29.9510489,
+        "longitude": -90.08230763
+    },
+    {
+        "id": 20,
+        "name": "MetLife Stadium",
+        "latitude": 40.81350705,
+        "longitude": -74.07434418
+    },
+    {
+        "id": 21,
+        "name": "NRG Stadium",
+        "latitude": 29.6848581,
+        "longitude": -95.41080145
+    },
+    {
+        "id": 22,
+        "name": "New Era Field",
+        "latitude": 42.7737131,
+        "longitude": -78.78690321
+    },
+    {
+        "id": 23,
+        "name": "Nissan Stadium",
+        "latitude": 36.16649655,
+        "longitude": -86.77126444
+    },
+    {
+        "id": 24,
+        "name": "Paul Brown Stadium",
+        "latitude": 39.095651000000004,
+        "longitude": -84.51610699999999
+    },
+    {
+        "id": 25,
+        "name": "Raymond James Stadium",
+        "latitude": 27.97597925,
+        "longitude": -82.50421800000001
+    },
+    {
+        "id": 26,
+        "name": "SoFi Stadium",
+        "latitude": 33.953358,
+        "longitude": -118.33989629999999
+    },
+    {
+        "id": 27,
+        "name": "Soldier Field",
+        "latitude": 41.86245145,
+        "longitude": -87.61671515
+    },
+    {
+        "id": 28,
+        "name": "State Farm Stadium",
+        "latitude": 33.52770765,
+        "longitude": -112.2625649
+    },
+    {
+        "id": 29,
+        "name": "TIAA Bank Field",
+        "latitude": 30.32398105,
+        "longitude": -81.63730457
+    },
+    {
+        "id": 30,
+        "name": "U.S. Bank Stadium",
+        "latitude": 44.9749768,
+        "longitude": -93.25993359999998
+    }
+]
